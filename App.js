@@ -73,22 +73,6 @@ export default class App extends React.Component {
 	  title="Your Location"
 	  />
 	  
-	  // set Google Maps Geocoding API for purposes of quota management. Its optional but recommended.
-Geocode.setApiKey("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
- 
-// Enable or disable logs. Its optional.
-Geocode.enableDebug();
- 
-// Get address from latidude & longitude.
-Geocode.fromLatLng("48.8583701", "2.2922926").then(
-  response => {
-    const address = response.results[0].formatted_address;
-    console.log(address);
-  },
-  error => {
-    console.error(error);
-  }
-);
   
   
 	  </MapView>
