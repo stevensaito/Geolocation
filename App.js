@@ -2,7 +2,6 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View } from "react-native";
 import { MapView, Constants, Location, Permissions } from "expo";
-import Geocoder from 'react-native-geocoding';
 
 export default class App extends React.Component {
 	
@@ -72,12 +71,9 @@ export default class App extends React.Component {
 			}
 	  title="Your Location"
 	  />
-	  
-  
-  
+	    
 	  </MapView>
 	  
     );
   }
 }
-*/
