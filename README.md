@@ -1,7 +1,5 @@
 References:
-
-    Google Directions	
-https://snack.expo.io/HkjlCvVM4
+    [Google Directions]	(https://snack.expo.io/HkjlCvVM4)
 
     Using a Map Marker and pin pointing my location
 https://snack.expo.io/SkqC-nNs-
